@@ -12,7 +12,7 @@ This repository provides a Python script for real-time object detection using YO
 ## Real Time Object Detection Example
 
 <p align="center">
-  <img src="https://github.com/Satyajithchary/Real_Time_Object_Detection/blob/main/Screenshot%202023-11-03%20150248.png" alt="Real Time Object Detection Example">
+  <img src="https://github.com/Satyajithchary/Real_Time_Object_Detection/blob/main/Output/Screenshot%202023-11-03%20150248.png" alt="Real Time Object Detection Example">
   </p>
 
 ## Prerequisites
