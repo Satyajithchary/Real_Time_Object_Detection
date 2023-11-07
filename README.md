@@ -1,4 +1,4 @@
-# Real Time Object Detection
+## 🚀 Real-Time Object Detection with YOLOv8 📷
 
 <p align="center">
   <img src="https://github.com/Satyajithchary/Real_Time_Object_Detection/assets/105963219/5e9e5a57-5446-4b19-94f8-9cc3d8665a33" alt="Project Logo or Banner">
