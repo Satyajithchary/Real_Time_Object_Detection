@@ -27,7 +27,7 @@ This repository provides a Python script for real-time object detection using YO
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Satyajithchary/realtime-yolov8-object-detection.git
+   git clone https://github.com/Satyajithchary/Real_Time_Object_Detection.git
    cd realtime-yolov8-object-detection
 
 ## Usage
