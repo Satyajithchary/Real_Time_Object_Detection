@@ -1,3 +1,5 @@
+!pip install ultralytics
+
 import cv2
 
 cap = cv2.VideoCapture(0)
@@ -50,12 +52,13 @@ cv2.destroyAllWindows()
 from ultralytics import YOLO
 import cv2
 import math
+
 # start webcam
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)  # default cam
 cap.set(3, 640)
 cap.set(4, 480)
 
-# model
+# Yolo model
 model = YOLO("yolo-Weights/yolov8n.pt")
 
 # object classes
@@ -90,11 +93,11 @@ while True:
 
             # confidence
             confidence = math.ceil((box.conf[0]*100))/100
-            print("Confidence --->",confidence)
+            print("Confidence is--->",confidence)
 
             # class name
             cls = int(box.cls[0])
-            print("Class name -->", classNames[cls])
+            print("Class name is-->", classNames[cls])
 
             # object details
             org = [x1, y1]
